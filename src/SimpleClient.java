@@ -18,7 +18,7 @@ public class SimpleClient {
                 i.read(line);
                 str = new String(line);
                 System.out.print("Resultado: ");
-                System.out.println(str.trim());
+                System.out.println(str.trim().split(" ")[0]);
             } while ( !str.trim().equals("bye") );
             s.close();
         }

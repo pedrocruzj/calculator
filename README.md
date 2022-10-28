@@ -13,4 +13,13 @@ realizar uma operação de soma.
 <ul>
 <li>Host: 127.0.0.1</li>
 <li>Porta: 9999</li>
+<li>Protocolo: TCP/IP</li>
 </ul>
+
+<h1>Exemplo:</h1>
+<i>Terminal</i>
+<div style="background:black;padding:20px;margin: 5px 0 10px 0">
+Digite uma expresão: <strong>5 + 5</strong>
+<br />
+Resultado: <strong>10.0</strong>
+</div>

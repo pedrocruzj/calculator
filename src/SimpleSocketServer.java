@@ -22,7 +22,7 @@ public class SimpleSocketServer {
                     str = new String(line);
 
                     Calculator calc = new Calculator(CalculatorArguments.getArgsFromExpression(str));
-                    o.write(String.valueOf(calc.calculate()).getBytes(StandardCharsets.UTF_8));
+                    o.write(String.valueOf(calc.calculate()).getBytes());
 
                     str = new String(line);
                 } while ( !str.trim().equals("bye") );
